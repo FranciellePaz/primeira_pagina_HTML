@@ -1,0 +1,62 @@
+<!- definicação da linguagem usada no documento -> 
+<!DOCTYPE html>
+
+<!- definição do idioma ->
+<html lang="en">
+
+<!- a tag head é onde os metadados ficam armazenados, definição de tipo de teclado, navegador, compatibilidade
+tudo que é configuração da página e não ficará visivel será adicionado aqui ->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Página inicial</title>
+</head>
+
+<!- a tag body é o inicio de tudo que ficará visivel para o usuário -> 
+<body>
+
+<!- A tag header cria um cabeçalho para a página ->
+  <header>
+<!- img src adiciona uma imagem e alt é usado para adicionar uma descrição a imagem para ela ser lida
+quando usar o programa de leitura de tela ->
+    <img src = "eurotour-logo-cor.png"  alt = "logo da empresa eurotour
+    com as letras em branco e fundo em azul" />
+<!- a tag nav cria um menu de navegação ->
+    <nav>
+<!- a tag ul cria uma lista desordenada e href associa o arquivo da página a um item da lista criando um menu navegavel -> 
+      <ul>
+        <li> <a href="hospedagem.html">Hospedagem</a></li>
+        <li> <a href="passagens.html"> Passagens </a></li>
+        <li> <a href="pontos_turisticos.html" >Pontos Turísticos</a></li>
+      </ul>
+    </nav>
+</header>
+
+<!- a tag main evidencia que esse é o corpo da página -> 
+  <main>
+    <h1>Bem-vindo a EuroTour</h1>
+<!- cria seções de texto ->
+    <section>
+      <h2>Sobre nós</h2>
+      <p>EuroTour é um site que ajuda você a planejar sua viagem para a Europa, desde a compra das passagens, até a visita aos pontos turísticos mais importantes de cada região!</p>
+    </section>
+    <section>
+      <h2>Atualmente estamos com excurções para Londres!</h2>
+      <p>Navegue por nossa página para conhecer mais sobre como viajar para Londres.<p>
+    </section>
+  </main>
+
+  <!- a tag footer cria um rodapé para a página ->
+  <footer>
+    <img src = "eurotour-logo-pb.png" alt = "logo da empresa eurotour
+    com as letras em branco e fundo em preto"  />
+    <ul>
+      <li>Facebook</li>
+      <li>Instagram</li>
+      <li>Linkedin</li>
+    </ul>
+  </footer>
+</body>
+</html>
